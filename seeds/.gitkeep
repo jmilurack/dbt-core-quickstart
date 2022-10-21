@@ -1,0 +1,4 @@
+Seeds are CSV files in your dbt project (typically in your seeds directory), that dbt can load into your data warehouse using the dbt seed command.
+
+Seeds can be referenced in downstream models the same way as referencing models — by using the ref function.
+
